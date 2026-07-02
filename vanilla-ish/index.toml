@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "SKIPPED_MODS.md"
-hash = "3d6f4d04b830a20f802fe0bc969e932a3039c8ca1a12f5db6df45faf4d10a7a8"
+hash = "c5084237424c860ac1e89b677dddc674e2b68a1f1eb5fb205b153fd75516b6e9"
 
 [[files]]
 file = "mods/accessible-step.pw.toml"
