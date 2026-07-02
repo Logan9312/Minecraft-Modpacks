@@ -1,0 +1,13 @@
+name = "Status"
+filename = "status-fabric-1.1.0+26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/b93awgkg/versions/gs7pv4kf/status-fabric-1.1.0%2B26.2.jar"
+hash-format = "sha512"
+hash = "534e9ef0e43febbc5181864edba554d11a0b72a015f49d03c710c48f2370793b7cd8edff0eafff3a2ef0fa900b6785363bf68e3bcaf49aae352aca4e8eabf6b2"
+
+[update]
+[update.modrinth]
+mod-id = "b93awgkg"
+version = "gs7pv4kf"

@@ -1,0 +1,13 @@
+name = "More Armor Trims"
+filename = "more-armor-trims-1.5.3-26.2.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/FGNYBAJ6/versions/s6hJsf8C/more-armor-trims-1.5.3-26.2.jar"
+hash-format = "sha512"
+hash = "8b1a77dd32b4c93868c36c4a001d63410e5570bf7e6edb526e9db3ad4a3b7aa9aa4c4dbfca6e8b8ac187cdf9e5aa68e43a8cb2ce9841dc0b306e114aab667e24"
+
+[update]
+[update.modrinth]
+mod-id = "FGNYBAJ6"
+version = "s6hJsf8C"
