@@ -1,17 +1,17 @@
 # Minecraft-Modpacks
-A simple repo for managing modpacks on my private servers
+A repo for managing the modpacks on my private servers.
 
-# Minecraft Pack Helper Guide
+# Minecraft pack helper guide
 
-This repo is used to manage Minecraft server modpacks with **packwiz**, host them through **GitHub Pages**, and let players update through **Prism Launcher**.
+I use this repo to manage Minecraft server modpacks with packwiz, host them through GitHub Pages, and let players update through Prism Launcher.
 
-## Basic Idea
+## Basic idea
 
 Each server has its own packwiz pack.
 
 Players import a Prism instance once. After that, they just relaunch the same instance and it updates automatically.
 
-## Common Commands
+## Common commands
 
 Run these from inside the specific pack folder.
 
@@ -40,7 +40,7 @@ packwiz refresh
 packwiz refresh
 ```
 
-### Commit changes
+### Commit your changes
 
 ```bash
 git add .
@@ -48,7 +48,7 @@ git commit -m "Update pack"
 git push
 ```
 
-## Normal Update Flow
+## Normal update flow
 
 ```bash
 packwiz update --all
@@ -68,7 +68,7 @@ Do not re-import the ZIP.
 The launcher will update the mods automatically.
 ```
 
-## Prism Pre-Launch Command
+## Prism pre-launch command
 
 Each Prism instance needs a pre-launch command like this:
 
@@ -82,9 +82,9 @@ Example:
 "$INST_JAVA" -jar packwiz-installer-bootstrap.jar https://YOUR_GITHUB_USERNAME.github.io/minecraft-packs/smp/pack.toml
 ```
 
-## Server Startup Command
+## Server startup command
 
-Run this before starting the server so the server updates from the same pack:
+Run this before starting the server. That keeps the server on the same pack as the clients.
 
 ```bash
 java -jar packwiz-installer-bootstrap.jar -g -s server https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO/YOUR_PACK_FOLDER/pack.toml
@@ -96,7 +96,7 @@ Then start the server normally:
 java -Xmx8G -jar fabric-server-launch.jar nogui
 ```
 
-## Creating a Player ZIP
+## Creating a player ZIP
 
 In Prism:
 
@@ -110,7 +110,7 @@ Send the ZIP to players.
 
 They should import it once, then keep using the same instance.
 
-## Player Instructions
+## Player instructions
 
 ```text
 1. Install Prism Launcher.
@@ -133,9 +133,9 @@ packwiz refresh
 packwiz modrinth export -o Pack-Name-Version.mrpack
 ```
 
-Upload that `.mrpack` as a new version on Modrinth.
+Upload the `.mrpack` as a new version on Modrinth.
 
-## Things to Remember
+## Things to remember
 
 * GitHub Pages hosts the pack.
 * Prism downloads updates from the `pack.toml` URL.
