@@ -215,11 +215,6 @@ hash = "142d6d46e8725c1c5b4f2ccf5b30c236e0e2648e5d789559e383f8e1f11da4f7"
 metafile = true
 
 [[files]]
-file = "mods/facebar.pw.toml"
-hash = "d0c0581b28a74d27152f80849e6682209d39897b41669312578ef4baafb6c449"
-metafile = true
-
-[[files]]
 file = "mods/ferrite-core.pw.toml"
 hash = "6e39103786c6f5cf810a3e6d4dce639cffbf432b0622d1691cd1862bc308358f"
 metafile = true
