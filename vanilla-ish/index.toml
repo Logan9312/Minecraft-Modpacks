@@ -398,3 +398,13 @@ metafile = true
 file = "mods/zannaghs-armor-hider.pw.toml"
 hash = "59b35ae2857513d1e8018d7c54ec3b6b6c0a36621a5e4d85c812e36a768bfc43"
 metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-reimagined.pw.toml"
+hash = "ea258ed5bf495d9017eeadc3cbf9bd67b1e672d843826bc077135548b5bc699e"
+metafile = true
+
+[[files]]
+file = "shaderpacks/complementary-unbound.pw.toml"
+hash = "608b87f75b2387a9fbd340cb18a8238bbbe5a0afc54202634b34f3000246b6e7"
+metafile = true
