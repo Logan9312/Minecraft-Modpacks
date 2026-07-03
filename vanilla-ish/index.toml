@@ -110,6 +110,11 @@ hash = "f67dc7f44fcf7a07dc2b14db99735ee0deb212c8d6fba7cda47a2359d8add0e4"
 metafile = true
 
 [[files]]
+file = "mods/axiom.pw.toml"
+hash = "38a6c2c64413a82214bd9ba779571b9686590ba4757378c469151c618e79e6c6"
+metafile = true
+
+[[files]]
 file = "mods/balm.pw.toml"
 hash = "0222ff00080a535b91a6c3fb94966a0eadb7721edf23a6082dcd3c9dab8d39be"
 metafile = true
