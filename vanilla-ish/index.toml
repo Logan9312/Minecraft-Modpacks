@@ -5,6 +5,86 @@ file = "SKIPPED_MODS.md"
 hash = "c5084237424c860ac1e89b677dddc674e2b68a1f1eb5fb205b153fd75516b6e9"
 
 [[files]]
+file = "datapacks/VanillaTweaks_CraftingTweaks_MC26.2.zip"
+hash = "a00007e071480b0d4e6bc1251868f7c34cfffc7821c071f0139b497713dd15a8"
+
+[[files]]
+file = "datapacks/anti enderman grief v1.1.17 (MC 26.2).zip"
+hash = "f8c39b0ea1147a24f61c7945612ce9332303606ebc5157d4211c149a85ccb0ad"
+
+[[files]]
+file = "datapacks/anti ghast grief v1.1.17 (MC 26.2).zip"
+hash = "a0133a3fe4ec6b28946f7666fa07acc7a84686c1d0c0c0eea0502aaf840142a6"
+
+[[files]]
+file = "datapacks/armor statues v2.8.23 (MC 26.2).zip"
+hash = "9fcbb5875c40c7616a9c8200b5db4cef53d9fe157da8b9d4682ad31c8ba2b448"
+
+[[files]]
+file = "datapacks/coordinates hud v1.2.18 (MC 26.2).zip"
+hash = "71aee1e5bda0ae95e2ab68dca4556aa6c6726af155cd3c6ed177f398a039ed33"
+
+[[files]]
+file = "datapacks/custom nether portals v2.3.20 (MC 26.2).zip"
+hash = "141ff3190a16935259beefd0a562ebe7769f7b78f82f64d0aebe30c57f743054"
+
+[[files]]
+file = "datapacks/double shulker shells v1.3.17 (MC 26.2).zip"
+hash = "402168c4721311b678fcfbd15ad635fc8eb1ede3464e2c591c1566a9c973293e"
+
+[[files]]
+file = "datapacks/fast leaf decay v2.0.22 (MC 26.2).zip"
+hash = "19b69b16d29878dac9a2bea05bb3635ca96f6d97590499618e4ee5486bec66ea"
+
+[[files]]
+file = "datapacks/more mob heads v2.20.0 (MC 26.2).zip"
+hash = "58f977bda12d097cb66fed3188f3cff1bb303569c740ba47c19d8f0d262e4611"
+
+[[files]]
+file = "datapacks/multiplayer sleep v2.6.17 (MC 26.2).zip"
+hash = "d9c4fe64f6c6e45f67b35f97422b30f5ca6f055bb83b1ba1a3a07257c3fdd7b6"
+
+[[files]]
+file = "datapacks/name colors v1.0.15 (MC 26.2).zip"
+hash = "4f34826ddb5244a0cdddca41d3cd68b93c87fa7874568469606847a09d324844"
+
+[[files]]
+file = "datapacks/nether portal coords v1.1.17 (MC 26.2).zip"
+hash = "84a657384ba0a49c1cc4e21be75a9241668cca55efe061b236a21a4efd80d13c"
+
+[[files]]
+file = "datapacks/painting picker v1.1.4 (MC 26.2).zip"
+hash = "72b9bb2585f4c25ece20a6288001695bc518fbeaf6589bbe5e3f3e192ddcdb80"
+
+[[files]]
+file = "datapacks/player head drops v1.1.17 (MC 26.2).zip"
+hash = "d57d4d6ee5a63d68d0b52cd4a18cca3b353b0b2ec9264e751a3967dc3d75b916"
+
+[[files]]
+file = "datapacks/silence mobs v1.2.11 (MC 26.2).zip"
+hash = "757b50b2ab9e1859ead4dd5b7551c15f733d5a10bf44603dc4d49745e43f15d8"
+
+[[files]]
+file = "datapacks/track raw statistics v1.7.13 (MC 26.2).zip"
+hash = "dd8175595855497bc2332752289d3828a40f0b9a09f70c5d741854896950b67c"
+
+[[files]]
+file = "datapacks/track statistics v1.1.19 (MC 26.2).zip"
+hash = "c1534b02b23c054a28008fa2fd80fe6df0d0e4b87b29cc3d537703b95dc3f55d"
+
+[[files]]
+file = "datapacks/unlock all recipes v2.0.18 (MC 26.2).zip"
+hash = "f8b7ce959caa153ccc12d973754ee3c0bf1fdb781383b21aeddb914d3dec8f7d"
+
+[[files]]
+file = "datapacks/villager death messages v1.2.19 (MC 26.2).zip"
+hash = "8c93dd4a7f245ad3f527311263f9c50c3681e622de68f3b2a19ed2b537824f90"
+
+[[files]]
+file = "datapacks/wandering trades v1.7.16 (MC 26.2).zip"
+hash = "1d8daa416b7bd3068377bec9e3ce7efa2c50bb07d4318aa979420374ffd49079"
+
+[[files]]
 file = "mods/accessible-step.pw.toml"
 hash = "e95699124834a00dc3c4c0ab1974b0d1bb8a3ef6ca659ff8daa7358253051ba4"
 metafile = true

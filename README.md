@@ -96,6 +96,32 @@ Then start the server normally:
 java -Xmx8G -jar fabric-server-launch.jar nogui
 ```
 
+## Server datapacks
+
+Put shared datapack ZIPs in the pack's top-level `datapacks` folder:
+
+```text
+vanilla-ish/datapacks/
+```
+
+The server pack includes Datapack Injector, so the server can load datapacks from that folder without copying them into `world/datapacks` by hand.
+
+After adding or removing datapack ZIPs:
+
+```bash
+cd vanilla-ish
+packwiz refresh
+git add datapacks index.toml pack.toml
+git commit -m "Update datapacks"
+git push
+```
+
+Then rerun the server packwiz update command in AMP before starting the server:
+
+```bash
+java -jar packwiz-installer-bootstrap.jar -g -s server https://modpacks.loganlab.ca/vanilla-ish/pack.toml
+```
+
 ## Creating a player ZIP
 
 In Prism:
