@@ -115,11 +115,6 @@ hash = "0222ff00080a535b91a6c3fb94966a0eadb7721edf23a6082dcd3c9dab8d39be"
 metafile = true
 
 [[files]]
-file = "mods/bobby.pw.toml"
-hash = "395337b8cb69960ded25d7d0838ee1a26751e08b3c75be95adb0d231a93411c9"
-metafile = true
-
-[[files]]
 file = "mods/borderless-fullscreen.pw.toml"
 hash = "b621ff490dadb4501f754e14d4d5d72ac1ac4fedb04c895b18afe0fe5ad90167"
 metafile = true
@@ -167,6 +162,11 @@ metafile = true
 [[files]]
 file = "mods/datapack-injector.pw.toml"
 hash = "3c55ed719c552e8555c5a6b48096a7a1c010d879cb4d7a22e7d217f17f100197"
+metafile = true
+
+[[files]]
+file = "mods/distanthorizons.pw.toml"
+hash = "15f5d74f5b60dc0279a4c910db2db721ff1a9f5deb2620006f7007c8ab5e9558"
 metafile = true
 
 [[files]]
