@@ -1,0 +1,13 @@
+name = "Item Model Browser"
+filename = "modelbrowser-1.4.1-beta.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/QgDZY2Yg/versions/bV8aCOa4/modelbrowser-1.4.1-beta.jar"
+hash-format = "sha512"
+hash = "ea4ee19c15e865dd4a9e15916daab8f93d90d5336fc033101c21c02b8f67bb80f1b991a3a5951ecacc83976379f8994111179ccc3d32d74007f75bd9fe91b9c7"
+
+[update]
+[update.modrinth]
+mod-id = "QgDZY2Yg"
+version = "bV8aCOa4"

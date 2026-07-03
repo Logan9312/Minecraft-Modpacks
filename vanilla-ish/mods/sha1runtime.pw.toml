@@ -1,0 +1,13 @@
+name = "Runtime Hash Updater"
+filename = "SHA1Runtime-26.2-1.4.3.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/YoRtMPzM/versions/u8viKX3N/SHA1Runtime-26.2-1.4.3.jar"
+hash-format = "sha512"
+hash = "97ca0c5d19a2f7e8420b1fc3087d6fcddc6dc36979551162d386726f76d05e0641a3ae2a59a099fefa2a090203b09c5ac0d1f873215f58839205fabe4369b2e6"
+
+[update]
+[update.modrinth]
+mod-id = "YoRtMPzM"
+version = "u8viKX3N"
