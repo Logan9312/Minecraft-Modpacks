@@ -161,6 +161,26 @@ packwiz modrinth export -o Pack-Name-Version.mrpack
 
 Upload the `.mrpack` as a new version on Modrinth.
 
+## Automatic Modrinth publishing
+
+Packs listed in `.github/modrinth-packs.json` are published automatically when their pack folder changes on `main`.
+
+To add another Modrinth project, add one object to `.github/modrinth-packs.json`:
+
+```json
+{
+  "id": "folder-name",
+  "path": "folder-name",
+  "name": "Display Name",
+  "modrinth_id": "PROJECTID",
+  "minecraft_versions": "26.2",
+  "loaders": "fabric",
+  "version_type": "release"
+}
+```
+
+The GitHub Actions secret must be named `MODRINTH_TOKEN`.
+
 ## Things to remember
 
 * GitHub Pages hosts the pack.

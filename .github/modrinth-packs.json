@@ -1,0 +1,11 @@
+[
+  {
+    "id": "vanilla-ish",
+    "path": "vanilla-ish",
+    "name": "Vanilla Ish",
+    "modrinth_id": "qsdVPo35",
+    "minecraft_versions": "26.2",
+    "loaders": "fabric",
+    "version_type": "release"
+  }
+]

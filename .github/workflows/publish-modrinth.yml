@@ -1,0 +1,110 @@
+name: Publish Modrinth Packs
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  discover:
+    name: Discover changed packs
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.changed.outputs.matrix }}
+      count: ${{ steps.changed.outputs.count }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build publish matrix
+        id: changed
+        shell: bash
+        run: |
+          set -euo pipefail
+
+          config=".github/modrinth-packs.json"
+
+          if [[ "${{ github.event_name }}" == "workflow_dispatch" ]]; then
+            changed_files="$config"
+          elif [[ "${{ github.event.before }}" == "0000000000000000000000000000000000000000" ]]; then
+            changed_files="$config"
+          else
+            changed_files="$(git diff --name-only "${{ github.event.before }}" "${{ github.sha }}")"
+          fi
+
+          if grep -qxF "$config" <<< "$changed_files" || grep -qxF ".github/workflows/publish-modrinth.yml" <<< "$changed_files"; then
+            matrix="$(jq -c '{include: .}' "$config")"
+          else
+            matrix="$(jq -c --arg files "$changed_files" '
+              [
+                .[]
+                | . as $pack
+                | select(
+                    ($files | split("\n") | any(startswith($pack.path + "/")))
+                  )
+              ]
+              | {include: .}
+            ' "$config")"
+          fi
+
+          count="$(jq '.include | length' <<< "$matrix")"
+
+          echo "matrix=$matrix" >> "$GITHUB_OUTPUT"
+          echo "count=$count" >> "$GITHUB_OUTPUT"
+
+  publish:
+    name: Publish ${{ matrix.name }}
+    needs: discover
+    if: needs.discover.outputs.count != '0'
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.discover.outputs.matrix) }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: stable
+
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@latest
+
+      - name: Export Modrinth pack
+        id: export
+        shell: bash
+        working-directory: ${{ matrix.path }}
+        run: |
+          set -euo pipefail
+
+          pack_version="$(awk -F '"' '/^version = / { print $2; exit }' pack.toml)"
+          version_number="${pack_version}+build.${{ github.run_number }}"
+          output_file="${{ matrix.id }}-${version_number}.mrpack"
+
+          packwiz refresh
+          packwiz modrinth export -o "$output_file" -y
+
+          echo "version_number=$version_number" >> "$GITHUB_OUTPUT"
+          echo "output_file=${{ matrix.path }}/$output_file" >> "$GITHUB_OUTPUT"
+
+      - name: Publish to Modrinth
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: ${{ matrix.modrinth_id }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-featured: true
+
+          files: ${{ steps.export.outputs.output_file }}
+          name: ${{ matrix.name }} ${{ steps.export.outputs.version_number }}
+          version: ${{ steps.export.outputs.version_number }}
+          version-type: ${{ matrix.version_type }}
+          game-versions: ${{ matrix.minecraft_versions }}
+          loaders: ${{ matrix.loaders }}
+          changelog: ${{ github.event.head_commit.message || 'Manual Modrinth publish' }}
