@@ -21,6 +21,10 @@ file = "datapacks/armor statues v2.8.23 (MC 26.2).zip"
 hash = "9fcbb5875c40c7616a9c8200b5db4cef53d9fe157da8b9d4682ad31c8ba2b448"
 
 [[files]]
+file = "datapacks/cauldron mud v1.0.10 (MC 26.2).zip"
+hash = "c5300be977d28bb1eeb7c1483a6c07d191b56bd1ffd4a22f5fc08ac89e3e88f8"
+
+[[files]]
 file = "datapacks/coordinates hud v1.2.18 (MC 26.2).zip"
 hash = "71aee1e5bda0ae95e2ab68dca4556aa6c6726af155cd3c6ed177f398a039ed33"
 
@@ -35,6 +39,10 @@ hash = "402168c4721311b678fcfbd15ad635fc8eb1ede3464e2c591c1566a9c973293e"
 [[files]]
 file = "datapacks/fast leaf decay v2.0.22 (MC 26.2).zip"
 hash = "19b69b16d29878dac9a2bea05bb3635ca96f6d97590499618e4ee5486bec66ea"
+
+[[files]]
+file = "datapacks/more effective tools v1.0.11 (MC 26.2).zip"
+hash = "876d2fb8f9ec5caaefd1fa17f0d250c40e7e3664120f6fe3c1e3dbaad8d71675"
 
 [[files]]
 file = "datapacks/more mob heads v2.20.0 (MC 26.2).zip"
