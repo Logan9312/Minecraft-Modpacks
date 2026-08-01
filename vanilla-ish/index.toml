@@ -233,6 +233,16 @@ hash = "3c5f48200041fbb985dcc7a21979f5315e146e7d6dd25c8e5721588490004154"
 metafile = true
 
 [[files]]
+file = "mods/fzzy-config.pw.toml"
+hash = "289599ac70b0f0a9a0055f1bd10fb7e2c38c540c3ef49db8779c5c3988a7455c"
+metafile = true
+
+[[files]]
+file = "mods/immersive-paintings.pw.toml"
+hash = "f6ec50c8f2b00ab272b1bdd8d05aeb707ab0befe59661ab4bb1814f3d66f6d62"
+metafile = true
+
+[[files]]
 file = "mods/inhabitor.pw.toml"
 hash = "c1bac646811c72bd56051722abee4a4a281cdd12819be001a0b40a6aa5ae86ca"
 metafile = true
