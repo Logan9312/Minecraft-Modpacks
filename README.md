@@ -5,12 +5,6 @@ A repo for managing the modpacks on my private servers.
 
 I use this repo to manage Minecraft server modpacks with packwiz, host them through GitHub Pages, and let players update through Prism Launcher.
 
-## Basic idea
-
-Each server has its own packwiz pack.
-
-Players import a Prism instance once. After that, they just relaunch the same instance and it updates automatically.
-
 ## Common commands
 
 Run these from inside the specific pack folder.
@@ -60,14 +54,6 @@ git push
 
 Then restart the Minecraft server.
 
-Tell players:
-
-```text
-Close Minecraft and relaunch the same Prism instance.
-Do not re-import the ZIP.
-The launcher will update the mods automatically.
-```
-
 ## Prism pre-launch command
 
 Each Prism instance needs a pre-launch command like this:
@@ -87,14 +73,10 @@ Example:
 Run this before starting the server. That keeps the server on the same pack as the clients.
 
 ```bash
-java -jar packwiz-installer-bootstrap.jar -g -s server https://YOUR_GITHUB_USERNAME.github.io/YOUR_REPO/YOUR_PACK_FOLDER/pack.toml
+java -jar packwiz-installer-bootstrap.jar -g -s server https://github.com/Logan9312/Minecraft-Modpacks/blob/main/vanilla-ish/pack.toml
 ```
 
 Then start the server normally:
-
-```bash
-java -Xmx8G -jar fabric-server-launch.jar nogui
-```
 
 ## Server datapacks
 
@@ -122,34 +104,6 @@ Then rerun the server packwiz update command in AMP before starting the server:
 java -jar packwiz-installer-bootstrap.jar -g -s server https://modpacks.loganlab.ca/vanilla-ish/pack.toml
 ```
 
-## Creating a player ZIP
-
-In Prism:
-
-```text
-Right-click instance
-→ Export
-→ Export as ZIP
-```
-
-Send the ZIP to players.
-
-They should import it once, then keep using the same instance.
-
-## Player instructions
-
-```text
-1. Install Prism Launcher.
-2. Add Instance.
-3. Import the ZIP.
-4. Launch the instance.
-5. Let the updater finish.
-
-Important:
-Do not re-import the ZIP after updates.
-Always use the same instance so JourneyMap, waypoints, keybinds, and local settings stay intact.
-```
-
 ## Exporting to Modrinth
 
 To make a `.mrpack` for Modrinth:
@@ -164,27 +118,3 @@ Upload the `.mrpack` as a new version on Modrinth.
 ## Automatic Modrinth publishing
 
 Packs listed in `.github/modrinth-packs.json` are published automatically when their pack folder changes on `main`.
-
-To add another Modrinth project, add one object to `.github/modrinth-packs.json`:
-
-```json
-{
-  "id": "folder-name",
-  "path": "folder-name",
-  "name": "Display Name",
-  "modrinth_id": "PROJECTID",
-  "minecraft_versions": "26.2",
-  "loaders": "fabric",
-  "version_type": "release"
-}
-```
-
-The GitHub Actions secret must be named `MODRINTH_TOKEN`.
-
-## Things to remember
-
-* GitHub Pages hosts the pack.
-* Prism downloads updates from the `pack.toml` URL.
-* The server should use the same `pack.toml` URL as the clients.
-* Players should relaunch, not reinstall.
-* Avoid syncing personal client files like JourneyMap data, screenshots, `options.txt`, or `servers.dat`.
