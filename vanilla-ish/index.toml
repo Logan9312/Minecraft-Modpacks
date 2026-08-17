@@ -203,6 +203,10 @@ hash = "4c67dcaac16f11a5d90dfeb2d1e6bfaabca6ff5b912c566970330c005797e2ea"
 metafile = true
 
 [[files]]
+file = "mods/etched-fabric-5.1.0-fabric.0-alpha.5.jar"
+hash = "77304f921ede6b18f34048bbd3bbafa4e16832944132c88feed2ab98447c4eba"
+
+[[files]]
 file = "mods/fabric-api.pw.toml"
 hash = "7e69c1869ee0d211bd0e801859950077af1b2a0cc1f1f73f7e08927d0da86563"
 metafile = true
