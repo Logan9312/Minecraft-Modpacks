@@ -258,7 +258,7 @@ metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "8b4bb7969f100288a1bf2d0886dff2b62da878042a757b7caccf209e27fe36b9"
+hash = "7262c5dea44f3ef66051c5300f498d03ad64f97cc5c920dd04ec8f0ba607bb92"
 metafile = true
 
 [[files]]
@@ -383,7 +383,7 @@ metafile = true
 
 [[files]]
 file = "mods/sodium.pw.toml"
-hash = "61b0b90fdcece885bca2ca639e5ddf696b374d51a93e3ee3deb8ecd07d57b9b0"
+hash = "a899b14d4bbab643586ac2734da162e9cae579d461f81776804c598a03297ebe"
 metafile = true
 
 [[files]]
@@ -409,6 +409,11 @@ metafile = true
 [[files]]
 file = "mods/view-distance-fix.pw.toml"
 hash = "def49401d0dd637076e57155716852f72aec5753590d0d21c2401c5c12ddc55d"
+metafile = true
+
+[[files]]
+file = "mods/voxy.pw.toml"
+hash = "6e7118b85f597deab7cbc4a1d6caf50aee9acda40ebd96711724d4d9514b2839"
 metafile = true
 
 [[files]]
