@@ -41,6 +41,11 @@ file = "datapacks/fast leaf decay v2.0.22 (MC 26.2).zip"
 hash = "19b69b16d29878dac9a2bea05bb3635ca96f6d97590499618e4ee5486bec66ea"
 
 [[files]]
+file = "datapacks/modelapplier.pw.toml"
+hash = "22663669129fd2bce49cc6684607f049d712c34b0f464786200a54ff1b78c9d4"
+metafile = true
+
+[[files]]
 file = "datapacks/more effective tools v1.0.11 (MC 26.2).zip"
 hash = "876d2fb8f9ec5caaefd1fa17f0d250c40e7e3664120f6fe3c1e3dbaad8d71675"
 
@@ -394,6 +399,11 @@ metafile = true
 [[files]]
 file = "mods/status.pw.toml"
 hash = "f870687d783c181c1e0c8dac48d83dc787db67b6caa446353c7dd6766ebf4c24"
+metafile = true
+
+[[files]]
+file = "mods/straw-statues.pw.toml"
+hash = "49d4b532692ad94cdde0bdbd42b833dc17e1abacfc73d95cb55b554c10e34155"
 metafile = true
 
 [[files]]

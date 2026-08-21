@@ -1,0 +1,13 @@
+name = "Straw Statues"
+filename = "StrawStatues-v26.2.0-mc26.2.x-Fabric.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/2fltysAl/versions/MvJaIPCF/StrawStatues-v26.2.0-mc26.2.x-Fabric.jar"
+hash-format = "sha512"
+hash = "4a6c37db2662988479ebbba2337439b55e2849f8206b64f6e8143be168251c4fbfbdb67eb63e0c8753696407f59a6a91b56a8bbf80b92d1d7da8deb7fc76776a"
+
+[update]
+[update.modrinth]
+mod-id = "2fltysAl"
+version = "MvJaIPCF"
