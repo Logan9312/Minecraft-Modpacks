@@ -133,6 +133,11 @@ hash = "0222ff00080a535b91a6c3fb94966a0eadb7721edf23a6082dcd3c9dab8d39be"
 metafile = true
 
 [[files]]
+file = "mods/bluemap.pw.toml"
+hash = "6414916464a96592f62fc2ed4dee6963422cd9e4e39ef35069e4ab659b6ce56d"
+metafile = true
+
+[[files]]
 file = "mods/borderless-fullscreen.pw.toml"
 hash = "b621ff490dadb4501f754e14d4d5d72ac1ac4fedb04c895b18afe0fe5ad90167"
 metafile = true
