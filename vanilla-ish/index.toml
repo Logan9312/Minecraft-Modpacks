@@ -138,6 +138,11 @@ hash = "6414916464a96592f62fc2ed4dee6963422cd9e4e39ef35069e4ab659b6ce56d"
 metafile = true
 
 [[files]]
+file = "mods/bmarker.pw.toml"
+hash = "793a3e0e55a7d9c2fab097d31e19c996169cecd15fe7bec0b331f9365f9f1cae"
+metafile = true
+
+[[files]]
 file = "mods/borderless-fullscreen.pw.toml"
 hash = "b621ff490dadb4501f754e14d4d5d72ac1ac4fedb04c895b18afe0fe5ad90167"
 metafile = true
@@ -389,6 +394,11 @@ metafile = true
 [[files]]
 file = "mods/shulkerboxtooltip.pw.toml"
 hash = "dd0734649f17d8ed75835a0c1ddae6bbe54ddc1010751397a0136bce5b255c41"
+metafile = true
+
+[[files]]
+file = "mods/silk.pw.toml"
+hash = "5293ee275dae664190a8ea69af8e90a8f0c1e77e45acd0fe6764e590286b48ca"
 metafile = true
 
 [[files]]

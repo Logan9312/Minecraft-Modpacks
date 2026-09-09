@@ -1,12 +1,12 @@
 name = "Vanilla Ish"
 author = "Logan"
-version = "1.0.8"
+version = "1.0.9"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "7fca751b528f9ad4057470905248469ad8684afc344e41fdd7bbb23316c005ca"
+hash = "47fd851d4f4cd93698c162c540e39091416fa5a8165435516e3fb856118e6fac"
 
 [versions]
 fabric = "0.19.3"
