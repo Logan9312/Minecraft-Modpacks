@@ -312,6 +312,11 @@ hash = "f516a0148ff05ed182676d12896f0e63c0323f935b26dc4df2cf5f8df9a06c44"
 metafile = true
 
 [[files]]
+file = "mods/luckperms.pw.toml"
+hash = "99811c67881579897393b3927dfb3edf708713adb5702fda8e231bfcb4c28abb"
+metafile = true
+
+[[files]]
 file = "mods/malilib.pw.toml"
 hash = "96a2ac012bb09e624b11ba52baa706a845893eb89b2a9c03f691ffc2d6cf8aee"
 metafile = true
