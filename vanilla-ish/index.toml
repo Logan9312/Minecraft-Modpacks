@@ -37,6 +37,10 @@ file = "datapacks/double shulker shells v1.3.17 (MC 26.2).zip"
 hash = "402168c4721311b678fcfbd15ad635fc8eb1ede3464e2c591c1566a9c973293e"
 
 [[files]]
+file = "datapacks/durability ping v1.1.18 (MC 26.2).zip"
+hash = "3b0231378d6053792aeffdc4549ba55f19cde7a221fdbec485e77515fac7814d"
+
+[[files]]
 file = "datapacks/fast leaf decay v2.0.22 (MC 26.2).zip"
 hash = "19b69b16d29878dac9a2bea05bb3635ca96f6d97590499618e4ee5486bec66ea"
 
@@ -62,6 +66,11 @@ file = "datapacks/name colors v1.0.15 (MC 26.2).zip"
 hash = "4f34826ddb5244a0cdddca41d3cd68b93c87fa7874568469606847a09d324844"
 
 [[files]]
+file = "datapacks/name-formatting-station-datapack.pw.toml"
+hash = "f7d84ccc61af722a639cf8f9fbb9c2d21cf7315078eb6d61c6833ea84fab0dfd"
+metafile = true
+
+[[files]]
 file = "datapacks/nether portal coords v1.1.17 (MC 26.2).zip"
 hash = "84a657384ba0a49c1cc4e21be75a9241668cca55efe061b236a21a4efd80d13c"
 
@@ -78,12 +87,20 @@ file = "datapacks/silence mobs v1.2.11 (MC 26.2).zip"
 hash = "757b50b2ab9e1859ead4dd5b7551c15f733d5a10bf44603dc4d49745e43f15d8"
 
 [[files]]
+file = "datapacks/storm channeling v1.0.9 (MC 26.2).zip"
+hash = "86270ab6c1189741cfd04b8edc482d1dd962699775c9374a1a4903273eb69442"
+
+[[files]]
 file = "datapacks/track raw statistics v1.7.13 (MC 26.2).zip"
 hash = "dd8175595855497bc2332752289d3828a40f0b9a09f70c5d741854896950b67c"
 
 [[files]]
 file = "datapacks/track statistics v1.1.19 (MC 26.2).zip"
 hash = "c1534b02b23c054a28008fa2fd80fe6df0d0e4b87b29cc3d537703b95dc3f55d"
+
+[[files]]
+file = "datapacks/universal dying (MC 1.26-1.26.2).zip"
+hash = "f6588a42a7bb5db6b3d78bd66160905f7a7be80322a5de20d1d02eaecb9c8692"
 
 [[files]]
 file = "datapacks/unlock all recipes v2.0.18 (MC 26.2).zip"
