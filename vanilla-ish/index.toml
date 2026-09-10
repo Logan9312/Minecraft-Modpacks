@@ -45,6 +45,11 @@ file = "datapacks/fast leaf decay v2.0.22 (MC 26.2).zip"
 hash = "19b69b16d29878dac9a2bea05bb3635ca96f6d97590499618e4ee5486bec66ea"
 
 [[files]]
+file = "datapacks/forgetful-sniffer.pw.toml"
+hash = "b4ee72fe255875bc78651a9f149cdb1eb3053dac94743b8222276c407a96db3d"
+metafile = true
+
+[[files]]
 file = "datapacks/modelapplier.pw.toml"
 hash = "22663669129fd2bce49cc6684607f049d712c34b0f464786200a54ff1b78c9d4"
 metafile = true
@@ -73,6 +78,11 @@ metafile = true
 [[files]]
 file = "datapacks/nether portal coords v1.1.17 (MC 26.2).zip"
 hash = "84a657384ba0a49c1cc4e21be75a9241668cca55efe061b236a21a4efd80d13c"
+
+[[files]]
+file = "datapacks/nubz-ancient-flowers.pw.toml"
+hash = "07df4dff918856fb02339cf64a9e974cf550a036f86438cbafbb110f9d83c7a4"
+metafile = true
 
 [[files]]
 file = "datapacks/painting picker v1.1.4 (MC 26.2).zip"

@@ -1,0 +1,13 @@
+name = "Nubz' Ancient Flowers"
+filename = "Nubz Ancient Flowers_1.1.1.zip"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/GByu8w4c/versions/7eFg4XV0/Nubz%20Ancient%20Flowers_1.1.1.zip"
+hash-format = "sha512"
+hash = "04d884eee1ac275b207272ff92470f680495722a37cfb8e9ec65dcb19e879e5b746c4d33888f9a484c6d9a307df06d405cf26b9cdebc42564c7b933141732518"
+
+[update]
+[update.modrinth]
+mod-id = "GByu8w4c"
+version = "7eFg4XV0"
