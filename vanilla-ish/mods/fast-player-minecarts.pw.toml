@@ -1,0 +1,13 @@
+name = "Fast Player Minecarts"
+filename = "fastcarts-1.0.0.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/YRpDO30b/versions/UXWRobGN/fastcarts-1.0.0.jar"
+hash-format = "sha512"
+hash = "cbf217a0416237b2ad48917c043942cbf735b1351bcee6ba35c5df92fe21d8d5ae451528fc3a034826e1b18ecc276b8ce5d8382e143839dfc0173b17ad3f98ad"
+
+[update]
+[update.modrinth]
+mod-id = "YRpDO30b"
+version = "UXWRobGN"
