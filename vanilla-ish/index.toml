@@ -429,6 +429,11 @@ hash = "7995dfdf3508f005943c3e5600b3756ef0c3eef735245fa88646cd5cc733a814"
 metafile = true
 
 [[files]]
+file = "mods/servux.pw.toml"
+hash = "07cb3dca41b6645bcf58f37be641c8a983d369261c5a3e2f822b723c7b36bebf"
+metafile = true
+
+[[files]]
 file = "mods/sha1runtime.pw.toml"
 hash = "9c2cc0ce6e8700fb145c3d94460d4c821895816a339704f9aa0d07b54491e792"
 metafile = true

@@ -44,6 +44,12 @@ git push
 
 ## Normal update flow
 
+**Before syncing a server:** follow the reconciliation checklist in
+[AGENTS.md](AGENTS.md). Compare the live server against the existing GitHub pack
+first. A missing server mod may have been intentionally removed; do not let a
+packwiz update reinstall it without confirmation. The commands below do not
+perform this safety check automatically.
+
 ```bash
 packwiz update --all
 packwiz refresh
