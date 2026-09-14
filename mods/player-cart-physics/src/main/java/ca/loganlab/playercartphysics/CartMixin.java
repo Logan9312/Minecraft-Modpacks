@@ -32,7 +32,6 @@ abstract class CartMixin {
             next.adjustToRails(pos, cart.level().getBlockState(pos), true);
         } else if (!player && behavior instanceof NewMinecartBehavior) {
             behavior = new OldMinecartBehavior(cart);
-            cart.setXRot(0);
         }
     }
 
