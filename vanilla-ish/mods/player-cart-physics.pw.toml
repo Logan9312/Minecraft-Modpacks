@@ -1,8 +1,8 @@
 name = "Player Cart Physics"
-filename = "player-cart-physics-0.1.0.jar"
+filename = "player-cart-physics-0.1.1.jar"
 side = "server"
 
 [download]
-url = "https://raw.githubusercontent.com/Logan9312/Minecraft-Modpacks/82342bc1446221cc98ac8d3860780e28462d7fc4/mods/player-cart-physics/dist/player-cart-physics-0.1.0.jar"
+url = "https://raw.githubusercontent.com/Logan9312/Minecraft-Modpacks/5bdca02f08914375ec4c640b049b8bad310834fe/mods/player-cart-physics/dist/player-cart-physics-0.1.1.jar"
 hash-format = "sha512"
-hash = "7d8b9ec655e68024ea862340a27115d4b2cbeae3ede45e583233a5efbff77921d53e0a8bd914a05fca4afebc6a6e828843d16337556d68f5154194c971ae095a"
+hash = "a3f1c9f7168e81e6fe73066256377b74d382ea403f887157a5cd561e3d306d8bed5fffb44e6d8aab8de90b8012cf12978f08be0f1a00f93db87f5d4c3ceecbe3"
