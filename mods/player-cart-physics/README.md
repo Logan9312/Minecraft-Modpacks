@@ -1,11 +1,7 @@
 # Player Cart Physics
 
-A server-side Fabric mod for Minecraft 26.2 that gives your minecart experimental
-physics while you ride it. Hop out and it switches back to normal.
-
-Keep Minecart Improvements off in the world settings so farm carts keep their
-usual physics. Player carts use Minecraft's own acceleration and braking, with
-a speed limit controlled by the vanilla gamerule:
+A server-side Fabric mod that gives your minecart experimental
+physics while you ride it. Any carts without a player on them will keep vanilla mechanics
 
 ```mcfunction
 /gamerule minecraft:max_minecart_speed 24
