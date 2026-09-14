@@ -24,13 +24,14 @@ abstract class CartMixin {
         AbstractMinecart cart = (AbstractMinecart) (Object) this;
         // Don't replace other mods' cart subclasses, or override a world-wide experiment.
         if (cart.getClass() != Minecart.class || AbstractMinecart.useExperimentalMovement(cart.level())) return;
-        boolean player = cart.getFirstPassenger() instanceof Player;
-        if (player && behavior instanceof OldMinecartBehavior) {
+        boolean improved = cart.getFirstPassenger() instanceof Player
+                || cart.isVehicle() && cart.getCustomName() != null && "#fast".equals(cart.getCustomName().getString());
+        if (improved && behavior instanceof OldMinecartBehavior) {
             NewMinecartBehavior next = new NewMinecartBehavior(cart);
             behavior = next;
             var pos = cart.getCurrentBlockPosOrRailBelow();
             next.adjustToRails(pos, cart.level().getBlockState(pos), true);
-        } else if (!player && behavior instanceof NewMinecartBehavior) {
+        } else if (!improved && behavior instanceof NewMinecartBehavior) {
             behavior = new OldMinecartBehavior(cart);
         }
     }

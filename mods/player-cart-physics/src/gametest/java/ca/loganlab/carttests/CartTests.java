@@ -2,13 +2,18 @@ package ca.loganlab.carttests;
 
 import net.fabricmc.fabric.api.gametest.v1.GameTest;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.component.DataComponents;
 import net.minecraft.gametest.framework.GameTestHelper;
+import net.minecraft.network.chat.Component;
 import net.minecraft.world.entity.EntityTypes;
+import net.minecraft.world.entity.EntitySpawnReason;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.vehicle.minecart.AbstractMinecart;
 import net.minecraft.world.entity.vehicle.minecart.NewMinecartBehavior;
 import net.minecraft.world.entity.vehicle.minecart.OldMinecartBehavior;
 import net.minecraft.world.level.GameType;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DetectorRailBlock;
 import net.minecraft.world.level.block.RailBlock;
@@ -17,6 +22,68 @@ import net.minecraft.world.level.gamerules.GameRules;
 import net.minecraft.world.phys.Vec3;
 
 public class CartTests {
+    @GameTest
+    public void anvilNameSurvivesPlacement(GameTestHelper h) {
+        track(h).discard();
+        ItemStack item = new ItemStack(Items.MINECART);
+        item.set(DataComponents.CUSTOM_NAME, Component.literal("#fast"));
+        var pos = h.absolutePos(new BlockPos(1, 1, 1));
+        // MinecartItem and dispensers both use this factory to transfer item components.
+        var cart = AbstractMinecart.createMinecart(h.getLevel(), pos.getX() + 0.5, pos.getY(),
+                pos.getZ() + 0.5, EntityTypes.MINECART, EntitySpawnReason.DISPENSER, item, null);
+        h.assertTrue(cart != null && cart.getCustomName() != null
+                && "#fast".equals(cart.getCustomName().getString()), "placed cart must inherit anvil name");
+        h.getLevel().addFreshEntity(cart);
+        var pig = h.spawn(EntityTypes.PIG, new BlockPos(1, 2, 1));
+        pig.startRiding(cart, true, false);
+        h.startSequence().thenIdle(2).thenExecute(() ->
+            h.assertTrue(cart.getBehavior() instanceof NewMinecartBehavior, "placed named cart must opt in")
+        ).thenSucceed();
+    }
+
+    @GameTest
+    public void fastNameOptsMobInAndRemovingItOptsOut(GameTestHelper h) {
+        var cart = track(h);
+        var pig = h.spawn(EntityTypes.PIG, new BlockPos(1, 2, 1));
+        cart.setCustomName(Component.literal("#fast"));
+        h.startSequence().thenIdle(2).thenExecute(() -> {
+            h.assertTrue(cart.getBehavior() instanceof OldMinecartBehavior, "named empty cart stays vanilla");
+            pig.startRiding(cart, true, false);
+        }).thenIdle(2).thenExecute(() -> {
+            h.assertTrue(cart.getBehavior() instanceof NewMinecartBehavior, "named mob cart uses improved physics");
+            cart.setCustomName(null);
+        }).thenIdle(2).thenExecute(() -> {
+            h.assertTrue(cart.getBehavior() instanceof OldMinecartBehavior, "removing name restores vanilla");
+            cart.setCustomName(Component.literal("#fast"));
+        }).thenIdle(2).thenExecute(() -> {
+            h.assertTrue(cart.getBehavior() instanceof NewMinecartBehavior, "renaming opts in again");
+            pig.stopRiding();
+            pig.discard();
+        }).thenIdle(2).thenExecute(() ->
+            h.assertTrue(cart.getBehavior() instanceof OldMinecartBehavior, "empty named cart returns to vanilla")
+        ).thenSucceed();
+    }
+
+    @GameTest
+    public void similarNamesAndNamedStorageCartsStayVanilla(GameTestHelper h) {
+        var cart = track(h);
+        var pig = h.spawn(EntityTypes.PIG, new BlockPos(1, 2, 1));
+        pig.startRiding(cart, true, false);
+        cart.setCustomName(Component.literal("#Fast"));
+        var hopper = h.spawn(EntityTypes.HOPPER_MINECART, new BlockPos(4, 1, 1));
+        var chest = h.spawn(EntityTypes.CHEST_MINECART, new BlockPos(6, 1, 1));
+        hopper.setCustomName(Component.literal("#fast"));
+        chest.setCustomName(Component.literal("#fast"));
+        h.startSequence().thenIdle(2).thenExecute(() -> {
+            for (var c : new AbstractMinecart[]{cart, hopper, chest}) {
+                h.assertTrue(c.getBehavior() instanceof OldMinecartBehavior, "only exact name on regular occupied carts opts in");
+            }
+            cart.setCustomName(Component.literal("transport #fast"));
+        }).thenIdle(2).thenExecute(() ->
+            h.assertTrue(cart.getBehavior() instanceof OldMinecartBehavior, "name must match completely")
+        ).thenSucceed();
+    }
+
     @GameTest
     public void boardingAndDismounting(GameTestHelper h) {
         var cart = track(h);
