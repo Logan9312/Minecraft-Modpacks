@@ -395,7 +395,7 @@ metafile = true
 
 [[files]]
 file = "mods/player-cart-physics.pw.toml"
-hash = "dabfcd5d651a12f137b461c0bf87b7e5687295d8f6b626fb6fb2c24c00bbe2b5"
+hash = "d92b0cf4cb41c0a62897ef8af367409dbdcaad63b9666d240f1721712bfc1cb4"
 metafile = true
 
 [[files]]
