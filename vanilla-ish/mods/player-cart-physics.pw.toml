@@ -1,8 +1,8 @@
 name = "Experimental Player Carts"
-filename = "player-cart-physics-0.1.1.jar"
+filename = "experimental-player-carts-0.1.3.jar"
 side = "server"
 
 [download]
-url = "https://raw.githubusercontent.com/Logan9312/Experimental-Player-Carts/5b7119e9646667505673509c3b484ed99504ebec/dist/player-cart-physics-0.1.1.jar"
+url = "https://github.com/Logan9312/Experimental-Player-Carts/releases/download/v0.1.3/experimental-player-carts-0.1.3.jar"
 hash-format = "sha512"
-hash = "a3f1c9f7168e81e6fe73066256377b74d382ea403f887157a5cd561e3d306d8bed5fffb44e6d8aab8de90b8012cf12978f08be0f1a00f93db87f5d4c3ceecbe3"
+hash = "efec149a55d77cd0b34bf726f6c78c303af26ecaa101975e144edc8791a989215fdb31201a1aa6a1be9ba28f7a5d74e9890b6bc88703ba6780c6237c7fa67610"
