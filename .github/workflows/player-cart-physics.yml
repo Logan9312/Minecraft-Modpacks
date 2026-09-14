@@ -1,0 +1,30 @@
+name: Player Cart Physics
+on:
+  pull_request:
+    paths: ['mods/player-cart-physics/**', '.github/workflows/player-cart-physics.yml']
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: mods/player-cart-physics
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '25'
+      - uses: gradle/actions/setup-gradle@v4
+      - run: ./gradlew build runGameTest --console=plain
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: player-cart-physics
+          path: |
+            mods/player-cart-physics/build/libs/*.jar
+            mods/player-cart-physics/build/**/TEST-*.xml
+            mods/player-cart-physics/build/**/logs/latest.log

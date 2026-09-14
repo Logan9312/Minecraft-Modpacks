@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "package": "ca.loganlab.playercartphysics",
+  "compatibilityLevel": "JAVA_25",
+  "mixinextras": { "minVersion": "0.5.4" },
+  "mixins": ["CartMixin", "CollisionMixin", "TrackingMixin", "SpeedRuleMixin"],
+  "injectors": { "defaultRequire": 1 }
+}
