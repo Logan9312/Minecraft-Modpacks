@@ -150,6 +150,11 @@ hash = "0222ff00080a535b91a6c3fb94966a0eadb7721edf23a6082dcd3c9dab8d39be"
 metafile = true
 
 [[files]]
+file = "mods/bluemap-entities.pw.toml"
+hash = "d77f9c37ebecba1b6146d6c68ddfc94706877e28db0e8d62f49e7b9cbcb4812d"
+metafile = true
+
+[[files]]
 file = "mods/bluemap.pw.toml"
 hash = "6414916464a96592f62fc2ed4dee6963422cd9e4e39ef35069e4ab659b6ce56d"
 metafile = true
