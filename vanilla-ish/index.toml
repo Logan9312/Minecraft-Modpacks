@@ -494,6 +494,11 @@ hash = "6e7118b85f597deab7cbc4a1d6caf50aee9acda40ebd96711724d4d9514b2839"
 metafile = true
 
 [[files]]
+file = "mods/waxable-item-frames.pw.toml"
+hash = "9191cb40aff41953073b693f8cc95e14f6431ac9e4510e211d5b52a616a63cab"
+metafile = true
+
+[[files]]
 file = "mods/zannaghs-armor-hider.pw.toml"
 hash = "59b35ae2857513d1e8018d7c54ec3b6b6c0a36621a5e4d85c812e36a768bfc43"
 metafile = true
