@@ -404,11 +404,6 @@ hash = "ab37e8fa90c01b2eae0ec0e0750e5136e95c993c52f4e6d46b9d3e1aa160288d"
 metafile = true
 
 [[files]]
-file = "mods/polysit.pw.toml"
-hash = "d610bc021f6dfedb67fa501f8eda3f4c95237cbd418991f053affa91627b3999"
-metafile = true
-
-[[files]]
 file = "mods/puzzles-lib.pw.toml"
 hash = "b9a63e882013d882c9b63a348c2a8cdc39dba9b5f168612e69d10b2afa148676"
 metafile = true
