@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "4598e2b6eabb79842eb97d2563cb042b09fffce81b3d1e649c2ee17c701ea9f5"
+hash = "6dd53197a1c4a8a6e6bef75f4e4ffc647aff0db35c035845d08e883d83c1bd11"
 
 [[files]]
 file = "SKIPPED_MODS.md"
@@ -248,8 +248,8 @@ hash = "e3b7d580b225af10404575494c964319336cb32fb800b4db09ed4931751cbac5"
 metafile = true
 
 [[files]]
-file = "mods/etched-fabric-5.1.0-fabric.0-alpha.7.jar.pw.toml"
-hash = "55f63308fc9b61e0d03fc4e591a4f5f68a4660aab1a20db425b723fda01ec484"
+file = "mods/etched-fabric.pw.toml"
+hash = "f668d9efc87b9b9241278ec64c1616f6910c12811584fee45a11a70eb4b113cd"
 metafile = true
 
 [[files]]

@@ -3,7 +3,7 @@
 For the separate Gurt test server. The live 26.2 pack is in `vanilla-ish`.
 
 This is a test release, not a confirmed world-upgrade path. It includes alpha/beta
-mods, Etched alpha.7, Experimental Player Carts 0.1.4, and Immersive Paintings
+mods, Etched alpha.8, Experimental Player Carts 0.1.4, and Immersive Paintings
 from [PR 157](https://github.com/Luke100000/ImmersivePaintings/pull/157),
 commit `7725da3ae5d7fd6d4e2dced1f169467d969e6aa1` (GPL-3.0).
 Corresponding source archives are included with the GitHub test release.

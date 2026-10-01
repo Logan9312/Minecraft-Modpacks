@@ -1,0 +1,8 @@
+name = "Etched Fabric"
+filename = "etched-fabric-5.1.0-fabric.0-alpha.8.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Logan9312/etched-fabric-26.2/releases/download/v5.1.0-fabric.0-alpha.8/etched-fabric-5.1.0-fabric.0-alpha.8.jar"
+hash-format = "sha512"
+hash = "7644a6130bfe32c6679ef57bf08b92b6ebefc53ba40ad96fb5ec31ee203ff780ec1d85cc124dc775045af8a36f777cab098f8ccfeae7566440faebf5fdae446c"

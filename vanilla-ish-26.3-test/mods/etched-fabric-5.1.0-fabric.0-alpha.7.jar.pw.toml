@@ -1,8 +1,0 @@
-name = "Etched Fabric"
-filename = "etched-fabric-5.1.0-fabric.0-alpha.7.jar"
-side = "both"
-
-[download]
-url = "https://github.com/Logan9312/Minecraft-Modpacks/releases/download/vanilla-ish-26.3-test-1/etched-fabric-5.1.0-fabric.0-alpha.7.jar"
-hash-format = "sha512"
-hash = "7bffacdd1a86af71f6393f8931eaac1e56a692d7a51e88df7b09de21dac452f5b6b9e319f9e4ce8f7c94adf14421e83674fd72dc6de307c1cc94020d051889ad"
