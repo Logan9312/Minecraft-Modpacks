@@ -1,0 +1,12 @@
+name = "Armor Poser"
+filename = "ArmorPoser-fabric-26.3-16.0.1.jar"
+side = "both"
+
+[download]
+url = "https://cdn.modrinth.com/data/PFwYNrHb/versions/qmCAgvPA/ArmorPoser-fabric-26.3-16.0.1.jar"
+hash-format = "sha512"
+hash = "bbd60b34776cb1af7880331dcbf5301ea5df01c80b51265d067d75f09a9f4a0c73131cc2b9159f028cb41e38e9255092ac6354d322992c701de97d3a6c36ec1f"
+
+[update.modrinth]
+mod-id = "PFwYNrHb"
+version = "qmCAgvPA"

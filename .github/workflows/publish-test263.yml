@@ -1,0 +1,39 @@
+name: Publish 26.3 test pack
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'vanilla-ish-26.3-test/**'
+      - '.github/workflows/publish-test263.yml'
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version: stable
+      - name: Install packwiz
+        run: go install github.com/packwiz/packwiz@dfd8b68a4796
+      - name: Export test pack
+        working-directory: vanilla-ish-26.3-test
+        run: packwiz modrinth export -o ../vanilla-ish-26.3-test.mrpack -y
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vanilla-ish-26.3-test
+          path: vanilla-ish-26.3-test.mrpack
+      - uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          modrinth-id: qsdVPo35
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          modrinth-featured: false
+          files: vanilla-ish-26.3-test.mrpack
+          name: Vanilla Ish 26.3 Test
+          version: 1.1.0-alpha.1+test.${{ github.run_number }}
+          version-type: alpha
+          game-versions: '26.3'
+          loaders: fabric
+          changelog: '26.3 test pack for the separate Gurt clone. Includes an Immersive Paintings development build and datapack compatibility fixes. Voxy is not included. Live Gurt remains on 26.2.'

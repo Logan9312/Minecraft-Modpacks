@@ -1,0 +1,8 @@
+name = "Experimental Player Carts"
+filename = "experimental-player-carts-0.1.4.jar"
+side = "server"
+
+[download]
+url = "https://github.com/Logan9312/Minecraft-Modpacks/releases/download/vanilla-ish-26.3-test-1/experimental-player-carts-0.1.4.jar"
+hash-format = "sha512"
+hash = "840f0cf9b3c55b4027813836a871d5d3c7adb735e6bad4eaf68b4d9ac87071f1c79702e21f8a5afe344081a439bd01850a88a8148df52d74abef48864eb6b56b"

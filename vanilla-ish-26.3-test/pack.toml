@@ -1,0 +1,16 @@
+name = "Vanilla Ish — 26.3 Test"
+author = "Logan"
+version = "1.1.0-alpha.1"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "9231999c22a2a66b78b4495b8d53c7c8fa77212bf35b32a46f16a9b96492da93"
+
+[versions]
+fabric = "0.19.5"
+minecraft = "26.3"
+
+[options]
+datapack-folder = "datapacks"

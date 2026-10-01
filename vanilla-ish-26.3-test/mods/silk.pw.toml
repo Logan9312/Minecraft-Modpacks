@@ -1,0 +1,12 @@
+name = "Silk"
+filename = "silk-all-1.12.1.jar"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/aTaCgKLW/versions/5ZyMtMIJ/silk-all-1.12.1.jar"
+hash-format = "sha512"
+hash = "db5403bc3b5ec98856343b11a3637836c744fd43ee13d4d22ea645f74bf106903f4387e01d2be790329bfc170851fd10779595326ae6e93cefa706760d1294d5"
+
+[update.modrinth]
+mod-id = "aTaCgKLW"
+version = "5ZyMtMIJ"

@@ -1,0 +1,12 @@
+name = "Item Model Browser"
+filename = "modelbrowser-1.5.1.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/QgDZY2Yg/versions/79fgs9Hf/modelbrowser-1.5.1.jar"
+hash-format = "sha512"
+hash = "2f8b658cdd52d26c338b5e228bdba990868f0faab75758a5a5b0d0b54ce0a5ee60fd9e22cc654d9ece5394c5a1ff27ac0bb2b31b46695c904fece7ce0940d88a"
+
+[update.modrinth]
+mod-id = "QgDZY2Yg"
+version = "79fgs9Hf"

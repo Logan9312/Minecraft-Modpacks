@@ -1,0 +1,12 @@
+name = "Color Splash datapacks"
+filename = "Color Splash [DP] v1.3.5 - 26.3+.zip"
+side = "server"
+
+[download]
+url = "https://cdn.modrinth.com/data/H7TelaeD/versions/hJ3lzFCR/Color%20Splash%20%5BDP%5D%20v1.3.5%20-%2026.3%2B.zip"
+hash-format = "sha512"
+hash = "4ca815b2f9a745c9ac5706e891c7617807b2678159bdb6b6b68987249659d8a85f116d2447faef8b36473a3189ba3440085c4dd98fa2dc4e7970f83db74ba433"
+
+[update.modrinth]
+mod-id = "H7TelaeD"
+version = "hJ3lzFCR"
