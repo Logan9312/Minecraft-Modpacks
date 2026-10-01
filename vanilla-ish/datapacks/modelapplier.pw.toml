@@ -1,13 +1,12 @@
 name = "ModelApplier"
-filename = "ModelApplier-v1.6.4.zip"
+filename = "ModelApplier-v1.7.0.zip"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/UPHTQ3on/versions/Zyca1GQf/ModelApplier-v1.6.4.zip"
+url = "https://cdn.modrinth.com/data/UPHTQ3on/versions/JUw5EUWS/ModelApplier-v1.7.0.zip"
 hash-format = "sha512"
-hash = "0329c4b2b2386933de7cec884fe5f5e6008725a32b5696f23248d1f477d07c2368fb8e42ae613c43d89862743990c38a1ee78d724bf098f7107e4465c11cc002"
+hash = "74ca32b9f6767dc1302e6b664768e8a6cea57873953aeb2d2fd963a727224917d4eae81a2a7d25ec3ea54ad90902ded2ea86c1c91b2365dd7cd47b79820cec12"
 
-[update]
 [update.modrinth]
 mod-id = "UPHTQ3on"
-version = "Zyca1GQf"
+version = "JUw5EUWS"

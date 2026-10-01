@@ -1,13 +1,12 @@
 name = "Audioplayer Roleplay"
-filename = "audioplayer-roleplay-fabric-0.2.0+26.2.jar"
+filename = "audioplayer-roleplay-fabric-0.4.0+26.3.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/vGoiKzZE/versions/wt4BwseN/audioplayer-roleplay-fabric-0.2.0%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/vGoiKzZE/versions/BKHRCMLv/audioplayer-roleplay-fabric-0.4.0%2B26.3.jar"
 hash-format = "sha512"
-hash = "6adcfd9ee26ccc417600efd3e7408f801972abd86fa29ff8498d41b9b9c641bbb66c486f5c6a77de46e28faaa957c7b7fd13583354ebfd122cbb0f8c91575619"
+hash = "7bcb9b86340fca4ec52905537eb574eaec9d44fa6ceb2ee2650dca0d338f11d578a3add69b42de67563572187090a20a373595150c0ade65a0e44ef924ad883d"
 
-[update]
 [update.modrinth]
 mod-id = "vGoiKzZE"
-version = "wt4BwseN"
+version = "BKHRCMLv"

@@ -1,12 +1,12 @@
 name = "Waxable Item Frames"
-filename = "waxableitemframes-1.0.0+26.2.jar"
+filename = "waxableitemframes-1.0.0+26.3.jar"
 side = "server"
 
 [download]
-url = "https://cdn.modrinth.com/data/5l0vNxoO/versions/vzXeaEjT/waxableitemframes-1.0.0%2B26.2.jar"
+url = "https://cdn.modrinth.com/data/5l0vNxoO/versions/myXfXK2h/waxableitemframes-1.0.0%2B26.3.jar"
 hash-format = "sha512"
-hash = "9109e71b39420213ea1a0afcc41a28a0a75356e8a23c5b35dffa6a1ea7c5cc1d5f57dbdf08b989e787c945d9126a67ca0986ef4e2e92c2b721ac11e3ed6b346f"
+hash = "5870f8dd33cd9d9a8eed212e2ddf82e3c7d8b58d7ddb7d137cb0716cf00be09d097c37ade0d052e2860b60abbe8abb9fa81c31ebf9e5bdc48baf78e2322db7ea"
 
 [update.modrinth]
 mod-id = "5l0vNxoO"
-version = "vzXeaEjT"
+version = "myXfXK2h"

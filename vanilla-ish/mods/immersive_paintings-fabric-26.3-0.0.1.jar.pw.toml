@@ -1,0 +1,8 @@
+name = "Immersive Paintings — 26.3 PR build"
+filename = "immersive_paintings-fabric-26.3-0.0.1.jar"
+side = "both"
+
+[download]
+url = "https://github.com/Logan9312/Minecraft-Modpacks/releases/download/vanilla-ish-26.3-test-1/immersive_paintings-fabric-26.3-0.0.1.jar"
+hash-format = "sha512"
+hash = "17b9e4b21848577f5511ab7a7e08909fb6534ed94094c3c272d882048274157f0fac572045f15aef45a19741d99f9675eb530bd52f1a435e7124bd0a83cd384e"
