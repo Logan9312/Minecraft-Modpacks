@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "a6a061e8d35a36b3eb34a0107830f0f801fa4fb24cc43e22d98f0b8cf2c4dbd1"
+hash = "4598e2b6eabb79842eb97d2563cb042b09fffce81b3d1e649c2ee17c701ea9f5"
 
 [[files]]
 file = "SKIPPED_MODS.md"
@@ -31,10 +31,6 @@ hash = "e3e6a2428241d513868fd98c7d8c6a80a7c5186c03461ebbaf332fe3c3cf5488"
 [[files]]
 file = "datapacks/cauldron mud v1.0.11 (MC 26.3).zip"
 hash = "62b4db82a25a3231543a83203555c099d670a7df0ad1f914790ab341c8e93c30"
-
-[[files]]
-file = "datapacks/color-splash-legacy-ids.zip"
-hash = "851713836ca37013d783bae0ba2daf62fca15aa205e85f6cabfa84539ac96418"
 
 [[files]]
 file = "datapacks/color-splash.pw.toml"
@@ -81,10 +77,6 @@ hash = "f9e080074c35d5f045c4d9eefb235dda8197da99ccf42a6c86d870bb26a97bd3"
 [[files]]
 file = "datapacks/name colors v1.0.16 (MC 26.3).zip"
 hash = "c955c1486d2dfc759d7dfc5802795369c3226b6622e0c42fba12a148ca24cd6c"
-
-[[files]]
-file = "datapacks/name_formatting_station_v2.9-gurt26.3.zip"
-hash = "90f2e4ecda314b387fd3dd67e3c3152799f87be86034b04ffdcea1eb5c90f7e8"
 
 [[files]]
 file = "datapacks/nether portal coords v1.1.18 (MC 26.3).zip"

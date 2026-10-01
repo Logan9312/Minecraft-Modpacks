@@ -32,8 +32,8 @@ jobs:
           modrinth-featured: false
           files: vanilla-ish-26.3-test.mrpack
           name: Vanilla Ish 26.3 Test
-          version: 1.1.0-alpha.1+test.${{ github.run_number }}
+          version: 1.1.0-alpha.2+test.${{ github.run_number }}
           version-type: alpha
           game-versions: '26.3'
           loaders: fabric
-          changelog: '26.3 test pack for the separate Gurt clone. Includes an Immersive Paintings development build and datapack compatibility fixes. Voxy is not included. Live Gurt remains on 26.2.'
+          changelog: 'Removed Name Formatting Station and the temporary Color Splash legacy-ID datapack. The Gurt test world uses a one-time trim-material migration. Ancient Flowers compatibility fixes remain. Voxy is not included. Live Gurt remains on 26.2.'

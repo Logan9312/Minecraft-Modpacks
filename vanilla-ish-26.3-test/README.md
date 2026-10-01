@@ -13,8 +13,10 @@ separately installed experimental Voxy build; Voxy is not distributed here.
 
 Vanilla Tweaks datapacks and crafting tweaks come from
 [Vanilla Tweaks](https://vanillatweaks.net/), updated for 26.3.
-Name Formatting Station (MukiTanuki) and Nubz' Ancient Flowers retain their
-original files with a 26.3 compatibility overlay for predicate, item-modifier,
+Nubz' Ancient Flowers retains its original files with a 26.3 compatibility overlay for predicate, item-modifier,
 loot-table, and advancement JSON formats. Gameplay behavior still needs testing.
-The Color Splash compatibility datapack preserves all 29 old `more_colors:` trim
-material IDs using the new material definitions. It does not rewrite inventory data.
+Name Formatting Station is no longer included.
+
+Existing 26.2 worlds need a one-time migration of Color Splash trim and ingredient
+material references from `more_colors:` to `colorsplash:` before using this pack.
+The Gurt test clone is migrated separately; installing the pack does not migrate a world.
