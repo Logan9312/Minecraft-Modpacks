@@ -294,7 +294,7 @@ metafile = true
 
 [[files]]
 file = "mods/freecam.pw.toml"
-hash = "97cf3a435bf0b0b6de54be563d814f521f9001ef61ac89a9101cdfaf560addd9"
+hash = "282f7b06149116b9de9be7224989fbd8d450eeac28175c3d6613e89e1239ea82"
 metafile = true
 
 [[files]]
@@ -424,7 +424,7 @@ metafile = true
 
 [[files]]
 file = "mods/scribble.pw.toml"
-hash = "fcd2dc2a449bdeab06348433ab47c11247b1061b59775b627bc81d0269e66bb8"
+hash = "720a3f6427af4f1c18ed144be0c3ff9d301eea528f7df7782fe7da77ae5baca0"
 metafile = true
 
 [[files]]
