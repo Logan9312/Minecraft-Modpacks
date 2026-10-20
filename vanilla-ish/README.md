@@ -8,8 +8,8 @@ from [PR 157](https://github.com/Luke100000/ImmersivePaintings/pull/157),
 commit `7725da3ae5d7fd6d4e2dced1f169467d969e6aa1` (GPL-3.0).
 Corresponding source archives are included with the GitHub test release.
 
-FabricExporter keeps the tested 1.0.22 build. Sodium stays on 0.9.2 for the
-separately installed experimental Voxy build; Voxy is not distributed here.
+FabricExporter keeps the tested 1.0.22 build. Voxy uses the official 0.2.20-beta
+release for 26.3, with compatible Sodium 0.9.2 and Iris 1.11.7.
 
 Vanilla Tweaks datapacks and crafting tweaks come from
 [Vanilla Tweaks](https://vanillatweaks.net/), updated for 26.3.

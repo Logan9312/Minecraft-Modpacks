@@ -2,7 +2,7 @@ hash-format = "sha256"
 
 [[files]]
 file = "README.md"
-hash = "33a1a86f7ee1359ae1321b89fed76878ac1cbcd4bc54b28ffceab272bb17c86c"
+hash = "5c031bf6b199f83d2e59b6cc985709e4ea53d694429511974a36c8d8deef65a7"
 
 [[files]]
 file = "SKIPPED_MODS.md"
@@ -149,7 +149,7 @@ metafile = true
 
 [[files]]
 file = "mods/balm.pw.toml"
-hash = "21abed75448ab9f67c050afc6620963103bcfc963dfd77a2f7ed203fca3c29a8"
+hash = "64f5c84b06297366f6228310e617ac83aff774d7035c2a60fe35759fc6e1da27"
 metafile = true
 
 [[files]]
@@ -159,7 +159,7 @@ metafile = true
 
 [[files]]
 file = "mods/bluemap.pw.toml"
-hash = "67b7b700b5d919dbc7b5f01145862e831ba09acc9ece97b36b0d8d190115983c"
+hash = "2d8355f2c8dd9ccbec4b9bc2a4b8a1aa1d4544020ea6e81f8dff5442d86f07c7"
 metafile = true
 
 [[files]]
@@ -169,7 +169,7 @@ metafile = true
 
 [[files]]
 file = "mods/borderless-fullscreen.pw.toml"
-hash = "066d906b05deb8590f864aff3b1bdd9bc6b471e7040aee99ac2418ef25cd8905"
+hash = "fd13adfb08fd52c81bbcb5378d34821062fd7eda11964fb96afc49fd527aa270"
 metafile = true
 
 [[files]]
@@ -184,7 +184,7 @@ metafile = true
 
 [[files]]
 file = "mods/chat-heads.pw.toml"
-hash = "89ddd9f5eef4cd0fae50d398463a56964e824d05743f122d0cc0c8ad22a521f5"
+hash = "e5cc56e58099f19ba2780b20a5cd0ac551286f6167154b3b367c579fd0e28d1e"
 metafile = true
 
 [[files]]
@@ -239,12 +239,12 @@ metafile = true
 
 [[files]]
 file = "mods/entity-model-features.pw.toml"
-hash = "23e63bf6df419bdcc1dbdcff2cf53b8b606f84a5f214489886f30477b994ed8b"
+hash = "284f62b8b501092a22ee80381f443968d5155213dc6436fa15817e9dc78bfc79"
 metafile = true
 
 [[files]]
 file = "mods/entitytexturefeatures.pw.toml"
-hash = "e3b7d580b225af10404575494c964319336cb32fb800b4db09ed4931751cbac5"
+hash = "add2ba531f5b71623b2cf0b948ff6a037d6bce0becfc00d69ccf4341d0ce3eab"
 metafile = true
 
 [[files]]
@@ -264,12 +264,12 @@ metafile = true
 
 [[files]]
 file = "mods/fabric-api.pw.toml"
-hash = "9c928c3403c3e16295bebdd1d3f43aea540849a93617cf57cfe7509417b97428"
+hash = "f789922ab41e7b6d251227d4f22559fa60282d8db891ba8414ce3c7c9a446f88"
 metafile = true
 
 [[files]]
 file = "mods/fabric-language-kotlin.pw.toml"
-hash = "6629e8af1c984d3f66fd607cc3f94ca8d1346d185e1ff7841c3e6615acea9178"
+hash = "25afc8573b0d0d32ef390a2693d76d635fc7cea49cbf964ff41666622a07d707"
 metafile = true
 
 [[files]]
@@ -299,7 +299,7 @@ metafile = true
 
 [[files]]
 file = "mods/fzzy-config.pw.toml"
-hash = "e5c5a0e5b63feea9f39ddb002b7b3f0ca8736a022f9101b3a8e79dc871ba12cf"
+hash = "dac5c97f32501382a5f3c429de54a942b95df699faef043fe0ed4a1a04aee38b"
 metafile = true
 
 [[files]]
@@ -319,7 +319,7 @@ metafile = true
 
 [[files]]
 file = "mods/inventory-essentials.pw.toml"
-hash = "6e627f151594da0f2563db6d6f44537fc178c084a117528da071c4861b979010"
+hash = "c1471e54ab1c3bf7f63b2015e983f42663982eef8c80f528f6415249f3fc1f5b"
 metafile = true
 
 [[files]]
@@ -409,12 +409,12 @@ metafile = true
 
 [[files]]
 file = "mods/polymer.pw.toml"
-hash = "d57b5654489e5578963159ba98f3b33fcde11c258c20b31f6c7660825e9d04d9"
+hash = "442ccce8d9de413864e7ed520b87a43a64ab1f336ad353f5ee7af52d7474d68c"
 metafile = true
 
 [[files]]
 file = "mods/puzzles-lib.pw.toml"
-hash = "10fd117693a7193d34d3b5ba75450fbe7fa466ad722cdd19000cf7fb8d172e8b"
+hash = "2725248cf82e2e7a6c351a99fcfbb668e39b69c20cb1552e4dc705fe2ed6897d"
 metafile = true
 
 [[files]]
@@ -488,13 +488,18 @@ hash = "284a0867d2b3b9bb8169ec74d3187ea4f0031f99db2e624675951286bedb0dcf"
 metafile = true
 
 [[files]]
+file = "mods/voxy.pw.toml"
+hash = "97d57318385e4b49208ccecb2608f57d2f3a48a60f2b15cadf815c9254f73c32"
+metafile = true
+
+[[files]]
 file = "mods/waxable-item-frames.pw.toml"
 hash = "7e8eaf830a060e48dd626a8076c98b19115ec616eae8954c0db63c31681c45aa"
 metafile = true
 
 [[files]]
 file = "mods/zannaghs-armor-hider.pw.toml"
-hash = "09da2117088ddf08f626a61a0b991a396b4ace217c727c15be569e47e2badf05"
+hash = "9aab05129ac4fa275a5e33838c431a5092bed3386812d2a93ecdba7ab8239d19"
 metafile = true
 
 [[files]]
